@@ -1,7 +1,8 @@
 function ContactDetails (props) {
 return (
-    <div>
-        <p>{'tel' + props.tel}</p>
+    <div className="contactDetails">
+        <p>{'tel. ' + props.tel}</p>
+        <p> {'email: ' + props.email}</p>
     </div>
         
 )
