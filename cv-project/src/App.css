@@ -1,0 +1,47 @@
+.App {
+  font-family: Roboto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('./Fonts/Roboto-Regular.ttf');
+}
+
+
+.wholeCV {
+  width: 595px;
+  height: 842px;
+  
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.TopSection {
+  background-color: darkblue;
+  color: white;
+  padding: 10px 30px;
+}
+
+h2 {
+  margin-bottom: 0px;
+  padding-bottom:0px;
+}
+
+.JobPosition{
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+.TopSection > * {
+  display: flex;
+  justify-content: start;
+  align-content: start;
+  flex:1;
+  text-align: left;
+}
+
+.personalLetter{
+  font-size: 12px;
+}
