@@ -57,7 +57,7 @@ justify-content: center;
 }
 
 .leftSide {
-  flex: 1;
+  flex: 1.5;
   background-color: palegreen;
 }
 
@@ -69,3 +69,17 @@ justify-content: center;
  text-align: left;
 
 }
+.component {
+  position: relative;
+}
+
+button {
+  position:absolute;
+  top: 0px;
+  right:10px;
+  opacity: 50%;
+  transition: opacity 20ms ease-in;
+}
+
+button:hover {
+opacity: 100%;}
